@@ -119,36 +119,66 @@ const Index = () => {
               <div className="w-24 h-1 bg-primary mx-auto animate-shimmer" />
             </div>
 
-            <Card className="bg-card border-2 border-primary p-12 animate-scale-in">
-              <div className="text-center mb-8">
-                <p className="font-serif text-3xl text-primary mb-6">Мужчины</p>
-                <div className="flex justify-center gap-12 mb-6 flex-wrap">
-                  <div className="flex flex-col items-center">
-                    <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
-                      <Icon name="Shirt" className="text-primary -rotate-45" size={40} />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <Card className="bg-card border-2 border-primary p-12 animate-scale-in">
+                <div className="text-center">
+                  <p className="font-serif text-3xl text-primary mb-6">Мужчины</p>
+                  <div className="flex justify-center gap-8 mb-6 flex-wrap">
+                    <div className="flex flex-col items-center">
+                      <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                        <Icon name="Shirt" className="text-primary -rotate-45" size={40} />
+                      </div>
+                      <p className="text-secondary text-lg">Подтяжки</p>
                     </div>
-                    <p className="text-secondary text-lg">Подтяжки</p>
+                    
+                    <div className="flex flex-col items-center">
+                      <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                        <span className="text-4xl -rotate-45">🎀</span>
+                      </div>
+                      <p className="text-secondary text-lg">Бабочка</p>
+                    </div>
+                    
+                    <div className="flex flex-col items-center">
+                      <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                        <span className="text-4xl -rotate-45">🎩</span>
+                      </div>
+                      <p className="text-secondary text-lg">Шляпа</p>
+                    </div>
                   </div>
-                  
-                  <div className="flex flex-col items-center">
-                    <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
-                      <span className="text-4xl -rotate-45">🎀</span>
+                  <p className="text-muted-foreground italic text-lg">
+                    Шляпы приветствуются!
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card border-2 border-primary p-12 animate-scale-in" style={{animationDelay: '0.2s'}}>
+                <div className="text-center">
+                  <p className="font-serif text-3xl text-primary mb-6">Женщины</p>
+                  <div className="flex justify-center gap-8 mb-6 flex-wrap">
+                    <div className="flex flex-col items-center">
+                      <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                        <span className="text-4xl -rotate-45">👗</span>
+                      </div>
+                      <p className="text-secondary text-lg">Платье</p>
                     </div>
-                    <p className="text-secondary text-lg">Бабочка</p>
-                  </div>
-                  
-                  <div className="flex flex-col items-center">
-                    <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
-                      <span className="text-4xl -rotate-45">🎩</span>
+                    
+                    <div className="flex flex-col items-center">
+                      <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                        <Icon name="Feather" className="text-primary -rotate-45" size={40} />
+                      </div>
+                      <p className="text-secondary text-lg">Боа</p>
                     </div>
-                    <p className="text-secondary text-lg">Шляпа</p>
+                    
+                    <div className="flex flex-col items-center">
+                      <div className="w-24 h-24 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                        <span className="text-4xl -rotate-45">😊</span>
+                      </div>
+                      <p className="text-secondary text-lg">Улыбка</p>
+                    </div>
                   </div>
                 </div>
-                <p className="text-muted-foreground italic text-lg">
-                  Шляпы приветствуются!
-                </p>
-              </div>
-            </Card>
+              </Card>
+            </div>
           </div>
         </section>
 
