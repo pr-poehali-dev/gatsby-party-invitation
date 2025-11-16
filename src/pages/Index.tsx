@@ -116,7 +116,11 @@ const Index = () => {
               <h2 className="font-serif text-5xl md:text-6xl font-bold text-primary mb-4">
                 Дресс-код
               </h2>
-              <div className="w-24 h-1 bg-primary mx-auto animate-shimmer" />
+              <div className="w-24 h-1 bg-primary mx-auto animate-shimmer mb-8" />
+              <p className="text-secondary text-lg md:text-xl leading-relaxed max-w-3xl mx-auto mb-6">
+                Погрузитесь в атмосферу 1920-х годов, когда стиль и элегантность были на пике моды. 
+                Одевайтесь в лучшие наряды, ведь вечер обещает быть незабываемым!
+              </p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -183,6 +187,45 @@ const Index = () => {
         </section>
 
         <section className="py-20 px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="font-serif text-5xl md:text-6xl font-bold text-primary mb-4">
+                Программа вечера
+              </h2>
+              <div className="w-24 h-1 bg-primary mx-auto animate-shimmer" />
+            </div>
+
+            <Card className="bg-card border-2 border-primary p-12 text-center animate-fade-in">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div className="flex flex-col items-center">
+                  <div className="w-20 h-20 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                    <Icon name="Music" className="text-primary -rotate-45" size={32} />
+                  </div>
+                  <p className="text-secondary text-lg font-semibold">Живая музыка</p>
+                </div>
+
+                <div className="flex flex-col items-center">
+                  <div className="w-20 h-20 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                    <Icon name="Soup" className="text-primary -rotate-45" size={32} />
+                  </div>
+                  <p className="text-secondary text-lg font-semibold">Изысканные угощения</p>
+                </div>
+
+                <div className="flex flex-col items-center">
+                  <div className="w-20 h-20 border-2 border-primary flex items-center justify-center mb-4 rotate-45">
+                    <Icon name="Gift" className="text-primary -rotate-45" size={32} />
+                  </div>
+                  <p className="text-secondary text-lg font-semibold">Много сюрпризов</p>
+                </div>
+              </div>
+              <p className="text-secondary text-lg md:text-xl leading-relaxed">
+                В программе: живая музыка, танцы, изысканные угощения и много сюрпризов.
+              </p>
+            </Card>
+          </div>
+        </section>
+
+        <section className="py-20 px-4 bg-gradient-to-b from-transparent via-card/30 to-transparent">
           <div className="max-w-3xl mx-auto text-center">
             <div className="mb-8 flex justify-center">
               <div className="w-32 h-1 bg-primary animate-shimmer" />
@@ -191,7 +234,15 @@ const Index = () => {
               "Я всегда гонялся за завтрашним днем.<br/>
               А сегодня — это все, что у нас есть"
             </p>
-            <p className="text-primary text-xl">— Ф. Скотт Фицджеральд</p>
+            <p className="text-primary text-xl mb-12">— Ф. Скотт Фицджеральд</p>
+            
+            <div className="mt-12 p-8 border-2 border-primary bg-card/50 animate-scale-in">
+              <p className="text-secondary text-xl md:text-2xl leading-relaxed font-light">
+                Давайте вместе отпразднуем эту важную веху и создадим воспоминания, 
+                которые останутся с нами навсегда!
+              </p>
+            </div>
+
             <div className="mt-8 flex justify-center">
               <div className="w-32 h-1 bg-primary animate-shimmer" />
             </div>
