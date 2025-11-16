@@ -237,10 +237,20 @@ const Index = () => {
             <p className="text-primary text-xl mb-12">— Ф. Скотт Фицджеральд</p>
             
             <div className="mt-12 p-8 border-2 border-primary bg-card/50 animate-scale-in">
-              <p className="text-secondary text-xl md:text-2xl leading-relaxed font-light">
+              <p className="text-secondary text-xl md:text-2xl leading-relaxed font-light mb-8">
                 Давайте вместе отпразднуем эту важную веху и создадим воспоминания, 
                 которые останутся с нами навсегда!
               </p>
+              
+              <a 
+                href="https://wa.me/?text=Подтверждаю%20участие%20в%20юбилее%2020.12.2025" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform duration-300 border-2 border-primary hover:bg-transparent hover:text-primary"
+              >
+                <Icon name="MessageCircle" size={24} />
+                Подтвердить участие
+              </a>
             </div>
 
             <div className="mt-8 flex justify-center">
