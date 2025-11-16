@@ -21,6 +21,16 @@ const Index = () => {
               <div className="w-32 h-1 bg-primary animate-shimmer" />
             </div>
             
+            <div className="mb-12 flex justify-center animate-scale-in">
+              <div className="w-64 h-64 md:w-80 md:h-80 border-4 border-primary rotate-45 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/587bcc5a-572c-4d54-8515-140d0ff32d80.jpeg"
+                  alt="Именинница"
+                  className="-rotate-45 scale-150 object-cover w-full h-full"
+                />
+              </div>
+            </div>
+
             <h1 className="font-serif text-6xl md:text-8xl font-bold mb-6 text-primary">
               С РАДОСТЬЮ
             </h1>
